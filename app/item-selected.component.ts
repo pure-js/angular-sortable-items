@@ -1,11 +1,11 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'item',
-  templateUrl: 'app/item.component.html'
+  selector: 'item-selected',
+  templateUrl: 'app/item-selected.component.html'
 })
 
-export class ItemComponent {
+export class ItemSelectedComponent {
   @Input() item: string[];
   constructor() {}
 }

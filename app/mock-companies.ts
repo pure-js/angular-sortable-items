@@ -5,705 +5,700 @@ interface item {
 
 export let companies: item[] = [
   {
-    "name": "Plasmos",
     "flags": [
-      "flower",
-      "heart",
-      "sun",
-      "flash"
-    ]
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Sultrax"
   },
   {
-    "name": "Automon",
     "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
+      "flame",
+      "squirrel"
+    ],
+    "name": "Macronaut"
   },
   {
-    "name": "Permadyne",
     "flags": [
-      "flower"
-    ]
+      "flame",
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Isoswitch"
   },
   {
-    "name": "Entropix",
-    "flags": []
-  },
-  {
-    "name": "Cyclonica",
     "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
+      "squirrel"
+    ],
+    "name": "Furnitech"
   },
   {
-    "name": "Koogle",
-    "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Exospace",
-    "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Zytrac",
-    "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Essensia",
-    "flags": [
-      "flower"
-    ]
-  },
-  {
-    "name": "Cosmosis",
-    "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Quadeebo",
-    "flags": [
-      "flower",
-      "heart",
-      "sun"
-    ]
-  },
-  {
-    "name": "Anocha",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Orbalix",
-    "flags": [
-      "flower",
-      "flash"
-    ]
-  },
-  {
-    "name": "Telepark",
-    "flags": [
-      "flash"
-    ]
-  },
-  {
-    "name": "Enquility",
-    "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Avenetro",
-    "flags": [
-      "flash"
-    ]
-  },
-  {
-    "name": "Vidto",
-    "flags": []
-  },
-  {
-    "name": "Fuelton",
-    "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Pyramia",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Proflex",
-    "flags": [
-      "flower",
-      "flash"
-    ]
-  },
-  {
-    "name": "Squish",
-    "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Rugstars",
-    "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Boilicon",
-    "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Suremax",
-    "flags": [
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Zidant",
-    "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Xsports",
-    "flags": [
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Metroz",
-    "flags": [
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Conjurica",
-    "flags": [
-      "flower",
-      "heart",
-      "sun"
-    ]
-  },
-  {
-    "name": "Decratex",
-    "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Calcu",
-    "flags": [
-      "heart",
-      "sun"
-    ]
-  },
-  {
-    "name": "Magmina",
-    "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Comvey",
-    "flags": [
-      "flower",
-      "sun"
-    ]
-  },
-  {
-    "name": "Lotron",
-    "flags": [
-      "flower",
-      "flash"
-    ]
-  },
-  {
-    "name": "Comtrak",
-    "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Terragen",
-    "flags": [
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Datacator",
-    "flags": [
-      "flower",
-      "flash"
-    ]
-  },
-  {
-    "name": "Exotechno",
-    "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Exozent",
-    "flags": [
-      "flower",
-      "flash"
-    ]
-  },
-  {
-    "name": "Chorizon",
     "flags": [
       "heart"
-    ]
+    ],
+    "name": "Applideck"
   },
   {
-    "name": "Eplosion",
     "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
+      "rocket",
+      "heart"
+    ],
+    "name": "Koogle"
   },
   {
-    "name": "Tetak",
     "flags": [
-      "sun"
-    ]
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Accruex"
   },
   {
-    "name": "Beadzza",
     "flags": [
-      "flower"
-    ]
+      "flame",
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Fuelworks"
   },
   {
-    "name": "Aeora",
     "flags": [
-      "sun",
-      "flash"
-    ]
+      "rocket",
+      "heart"
+    ],
+    "name": "Bytrex"
   },
   {
-    "name": "Geeknet",
     "flags": [
-      "heart",
-      "sun"
-    ]
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Eplosion"
   },
   {
-    "name": "Quordate",
     "flags": [
-      "flower"
-    ]
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Retrack"
   },
   {
-    "name": "Idealis",
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Eventix"
+  },
+  {
     "flags": [
       "heart"
-    ]
+    ],
+    "name": "Rodeology"
   },
   {
-    "name": "Lunchpad",
     "flags": [
-      "flower",
-      "flash"
-    ]
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Chorizon"
   },
   {
-    "name": "Newcube",
     "flags": [
-      "flower"
-    ]
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Radiantix"
   },
   {
-    "name": "Wrapture",
-    "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Geekwagon",
-    "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Zaggles",
-    "flags": [
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Opticom",
-    "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Buzzworks",
-    "flags": [
-      "flower",
-      "flash"
-    ]
-  },
-  {
-    "name": "Liquidoc",
-    "flags": [
-      "flower",
-      "heart",
-      "sun"
-    ]
-  },
-  {
-    "name": "Iplax",
-    "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Quizka",
-    "flags": [
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Zentix",
-    "flags": [
-      "flower",
-      "heart",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Insource",
-    "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Bezal",
-    "flags": [
-      "flower",
-      "heart"
-    ]
-  },
-  {
-    "name": "Zillatide",
-    "flags": [
-      "flash"
-    ]
-  },
-  {
-    "name": "Halap",
-    "flags": [
-      "flower",
-      "heart"
-    ]
-  },
-  {
-    "name": "Sonique",
-    "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Combogene",
-    "flags": [
-      "flower",
-      "flash"
-    ]
-  },
-  {
-    "name": "Netplax",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Comvoy",
-    "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Earwax",
     "flags": [
       "heart"
-    ]
+    ],
+    "name": "Qualitex"
   },
   {
-    "name": "Bytrex",
     "flags": [
-      "flower",
-      "heart",
-      "sun",
-      "flash"
-    ]
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Fossiel"
   },
   {
-    "name": "Firewax",
     "flags": [
-      "flower",
-      "flash"
-    ]
+      "rocket"
+    ],
+    "name": "Flyboyz"
   },
   {
-    "name": "Quizmo",
     "flags": [
-      "flower",
-      "sun"
-    ]
-  },
-  {
-    "name": "Quonk",
-    "flags": [
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Ohmnet",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Songlines",
-    "flags": [
-      "flower",
+      "flame",
+      "rocket",
       "heart"
-    ]
+    ],
+    "name": "Peticular"
   },
   {
-    "name": "Marqet",
     "flags": [
-      "flash"
-    ]
-  },
-  {
-    "name": "Musaphics",
-    "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Rodemco",
-    "flags": [
-      "heart",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Isoswitch",
-    "flags": [
-      "flower",
-      "sun"
-    ]
-  },
-  {
-    "name": "Kenegy",
-    "flags": [
-      "flower",
-      "sun"
-    ]
-  },
-  {
-    "name": "Myopium",
-    "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Kongene",
-    "flags": [
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Gology",
-    "flags": []
-  },
-  {
-    "name": "Opticall",
-    "flags": [
-      "heart",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Bitendrex",
-    "flags": [
-      "flower"
-    ]
-  },
-  {
-    "name": "Tersanki",
-    "flags": [
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Signity",
-    "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Kongle",
-    "flags": []
-  },
-  {
-    "name": "Mediot",
-    "flags": [
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Mantro",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Sultrax",
-    "flags": []
-  },
-  {
-    "name": "Tsunamia",
-    "flags": [
-      "heart",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Slax",
-    "flags": [
-      "flower",
-      "heart",
-      "sun"
-    ]
-  },
-  {
-    "name": "Fortean",
-    "flags": [
-      "flower",
-      "sun"
-    ]
-  },
-  {
-    "name": "Geekology",
-    "flags": [
-      "flower",
+      "flame",
+      "squirrel",
       "heart"
-    ]
+    ],
+    "name": "Poochies"
   },
   {
-    "name": "Ronelon",
     "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Isodrive"
   },
   {
-    "name": "Buzzopia",
     "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Hydrocom"
   },
   {
-    "name": "Tubalum",
+    "flags": [],
+    "name": "Farmex"
+  },
+  {
     "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
+      "flame"
+    ],
+    "name": "Medcom"
   },
   {
-    "name": "Vertide",
     "flags": [
-      "flower",
-      "sun"
-    ]
+      "rocket",
+      "heart"
+    ],
+    "name": "Comtract"
   },
   {
-    "name": "Stockpost",
     "flags": [
-      "flower",
-      "heart",
-      "sun",
-      "flash"
-    ]
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Kage"
   },
   {
-    "name": "Retrack",
-    "flags": []
-  },
-  {
-    "name": "Intergeek",
     "flags": [
-      "heart",
-      "sun",
-      "flash"
-    ]
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Glukgluk"
   },
   {
-    "name": "Tingles",
     "flags": [
-      "flower",
-      "sun"
-    ]
+      "flame",
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Spacewax"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Freakin"
+  },
+  {
+    "flags": [
+      "rocket",
+      "heart"
+    ],
+    "name": "Visalia"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Cofine"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel"
+    ],
+    "name": "Toyletry"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Olympix"
+  },
+  {
+    "flags": [
+      "rocket",
+      "heart"
+    ],
+    "name": "Rubadub"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Veraq"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Digifad"
+  },
+  {
+    "flags": [
+      "heart"
+    ],
+    "name": "Dognosis"
+  },
+  {
+    "flags": [
+      "rocket",
+      "heart"
+    ],
+    "name": "Moreganic"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Cormoran"
+  },
+  {
+    "flags": [
+      "flame"
+    ],
+    "name": "Kengen"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket",
+      "heart"
+    ],
+    "name": "Premiant"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel"
+    ],
+    "name": "Inventure"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "heart"
+    ],
+    "name": "Vantage"
+  },
+  {
+    "flags": [
+      "flame"
+    ],
+    "name": "Comverges"
+  },
+  {
+    "flags": [],
+    "name": "Danja"
+  },
+  {
+    "flags": [
+      "rocket"
+    ],
+    "name": "Kiosk"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Quailcom"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel"
+    ],
+    "name": "Pheast"
+  },
+  {
+    "flags": [
+      "heart"
+    ],
+    "name": "Koffee"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel"
+    ],
+    "name": "Duoflex"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket"
+    ],
+    "name": "Andershun"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Flumbo"
+  },
+  {
+    "flags": [
+      "rocket"
+    ],
+    "name": "Quilk"
+  },
+  {
+    "flags": [
+      "squirrel"
+    ],
+    "name": "Namegen"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "heart"
+    ],
+    "name": "Zenthall"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Uplinx"
+  },
+  {
+    "flags": [
+      "rocket"
+    ],
+    "name": "Acusage"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Bluplanet"
+  },
+  {
+    "flags": [
+      "rocket"
+    ],
+    "name": "Viagreat"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel"
+    ],
+    "name": "Snorus"
+  },
+  {
+    "flags": [
+      "rocket"
+    ],
+    "name": "Nurplex"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Exodoc"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "heart"
+    ],
+    "name": "Opticon"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Inquala"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Gynko"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel"
+    ],
+    "name": "Equitox"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket"
+    ],
+    "name": "Hyplex"
+  },
+  {
+    "flags": [
+      "rocket",
+      "heart"
+    ],
+    "name": "Myopium"
+  },
+  {
+    "flags": [
+      "flame"
+    ],
+    "name": "Grupoli"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Netbook"
+  },
+  {
+    "flags": [
+      "flame"
+    ],
+    "name": "Geekola"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Tersanki"
+  },
+  {
+    "flags": [],
+    "name": "Podunk"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Frolix"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Xleen"
+  },
+  {
+    "flags": [
+      "flame",
+      "heart"
+    ],
+    "name": "Insurety"
+  },
+  {
+    "flags": [
+      "squirrel"
+    ],
+    "name": "Uncorp"
+  },
+  {
+    "flags": [
+      "heart"
+    ],
+    "name": "Plexia"
+  },
+  {
+    "flags": [],
+    "name": "Edecine"
+  },
+  {
+    "flags": [
+      "squirrel"
+    ],
+    "name": "Interfind"
+  },
+  {
+    "flags": [
+      "rocket",
+      "heart"
+    ],
+    "name": "Zillan"
+  },
+  {
+    "flags": [],
+    "name": "Centice"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel"
+    ],
+    "name": "Xyqag"
+  },
+  {
+    "flags": [],
+    "name": "Cogentry"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "heart"
+    ],
+    "name": "Neptide"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel"
+    ],
+    "name": "Powernet"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Gink"
+  },
+  {
+    "flags": [],
+    "name": "Newcube"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Xth"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Pyrami"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Medalert"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Xylar"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "heart"
+    ],
+    "name": "Daido"
+  },
+  {
+    "flags": [
+      "rocket"
+    ],
+    "name": "Ecstasia"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket"
+    ],
+    "name": "Zytrek"
+  },
+  {
+    "flags": [
+      "flame"
+    ],
+    "name": "Ewaves"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel"
+    ],
+    "name": "Adornica"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "heart"
+    ],
+    "name": "Papricut"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Turnling"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket"
+    ],
+    "name": "Boilicon"
   }
 ];

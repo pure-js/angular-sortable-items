@@ -5,688 +5,683 @@ interface item {
 
 export let cities: item[] = [
   {
-    "name": "Sattley",
     "flags": [
-      "flower",
-      "sun"
-    ]
+      "flame",
+      "rocket"
+    ],
+    "name": "Harborton"
   },
   {
-    "name": "Elizaville",
     "flags": [
-      "flower"
-    ]
-  },
-  {
-    "name": "Tilden",
-    "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Rockhill",
-    "flags": [
-      "flower",
+      "flame",
+      "squirrel",
       "heart"
-    ]
+    ],
+    "name": "Barronett"
   },
   {
-    "name": "Tecolotito",
     "flags": [
-      "heart",
-      "sun"
-    ]
-  },
-  {
-    "name": "Eggertsville",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Sims",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Crenshaw",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Kersey",
-    "flags": [
-      "flower"
-    ]
-  },
-  {
-    "name": "Jamestown",
-    "flags": [
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Wyoming",
-    "flags": [
+      "flame",
       "heart"
-    ]
+    ],
+    "name": "Homeland"
   },
   {
-    "name": "Aurora",
     "flags": [
-      "heart",
-      "sun"
-    ]
+      "squirrel"
+    ],
+    "name": "Urie"
   },
   {
-    "name": "Edgar",
     "flags": [
-      "flower",
-      "sun"
-    ]
+      "rocket"
+    ],
+    "name": "Fairhaven"
   },
   {
-    "name": "Torboy",
     "flags": [
-      "flower",
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Adamstown"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket"
+    ],
+    "name": "Dunlo"
+  },
+  {
+    "flags": [
+      "flame",
       "heart"
-    ]
+    ],
+    "name": "Brethren"
   },
   {
-    "name": "Clay",
     "flags": [
-      "flower",
-      "flash"
-    ]
+      "flame",
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Jackpot"
   },
   {
-    "name": "Venice",
     "flags": [
-      "flower",
-      "heart",
-      "sun",
-      "flash"
-    ]
+      "squirrel"
+    ],
+    "name": "Roland"
   },
   {
-    "name": "Malott",
     "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Gardners",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Woodlake",
-    "flags": [
-      "flower",
-      "heart",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Mathews",
-    "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Darlington",
-    "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Highland",
-    "flags": [
-      "flower",
+      "squirrel",
       "heart"
-    ]
+    ],
+    "name": "Bodega"
   },
   {
-    "name": "Gulf",
+    "flags": [
+      "rocket"
+    ],
+    "name": "Onton"
+  },
+  {
+    "flags": [
+      "squirrel"
+    ],
+    "name": "Dragoon"
+  },
+  {
+    "flags": [],
+    "name": "Gouglersville"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket"
+    ],
+    "name": "Hiko"
+  },
+  {
     "flags": [
       "heart"
-    ]
+    ],
+    "name": "Lynn"
   },
   {
-    "name": "Blanco",
     "flags": [
-      "flower",
-      "heart",
-      "sun"
-    ]
+      "flame",
+      "squirrel"
+    ],
+    "name": "Siglerville"
   },
   {
-    "name": "Ruffin",
     "flags": [
-      "flower",
-      "heart",
-      "sun"
-    ]
+      "flame",
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Dola"
   },
   {
-    "name": "Kerby",
     "flags": [
-      "heart",
-      "sun"
-    ]
-  },
-  {
-    "name": "Chemung",
-    "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Laurelton",
-    "flags": [
-      "flash"
-    ]
-  },
-  {
-    "name": "Brogan",
-    "flags": [
-      "flower",
-      "sun"
-    ]
-  },
-  {
-    "name": "Williams",
-    "flags": [
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Bawcomville",
-    "flags": [
-      "flower"
-    ]
-  },
-  {
-    "name": "Caledonia",
-    "flags": [
-      "flower",
-      "flash"
-    ]
-  },
-  {
-    "name": "Dale",
-    "flags": [
-      "flower",
-      "sun"
-    ]
-  },
-  {
-    "name": "Manitou",
-    "flags": [
-      "flower",
-      "sun"
-    ]
-  },
-  {
-    "name": "Wildwood",
-    "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Homeworth",
-    "flags": [
-      "flower",
-      "sun"
-    ]
-  },
-  {
-    "name": "Lafferty",
-    "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Joppa",
-    "flags": []
-  },
-  {
-    "name": "Brandermill",
-    "flags": [
-      "flower",
-      "heart",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Lavalette",
-    "flags": [
-      "flower",
-      "heart",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Linganore",
-    "flags": []
-  },
-  {
-    "name": "Saranap",
-    "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Neibert",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Cobbtown",
-    "flags": [
-      "flower",
-      "heart",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Walton",
-    "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Graball",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Bowmansville",
-    "flags": [
-      "flower",
-      "heart",
-      "sun"
-    ]
-  },
-  {
-    "name": "Fresno",
-    "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Chaparrito",
-    "flags": [
-      "flash"
-    ]
-  },
-  {
-    "name": "Berwind",
-    "flags": [
-      "flower",
+      "squirrel",
       "heart"
-    ]
+    ],
+    "name": "Lloyd"
   },
   {
-    "name": "Haena",
     "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Websterville",
-    "flags": [
-      "flower",
+      "flame",
+      "rocket",
       "heart"
-    ]
+    ],
+    "name": "Callaghan"
   },
   {
-    "name": "Stagecoach",
-    "flags": [
-      "flower",
-      "heart"
-    ]
-  },
-  {
-    "name": "Breinigsville",
-    "flags": [
-      "flower",
-      "sun"
-    ]
-  },
-  {
-    "name": "Sparkill",
-    "flags": [
-      "heart",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Terlingua",
-    "flags": [
-      "flower",
-      "flash"
-    ]
-  },
-  {
-    "name": "Faxon",
-    "flags": [
-      "flower",
-      "sun"
-    ]
-  },
-  {
-    "name": "Eastvale",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Cressey",
-    "flags": [
-      "flower",
-      "heart",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Brady",
-    "flags": [
-      "sun"
-    ]
-  },
-  {
-    "name": "Hiko",
-    "flags": [
-      "flower",
-      "flash"
-    ]
-  },
-  {
-    "name": "Movico",
-    "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Lupton",
-    "flags": [
-      "flash"
-    ]
-  },
-  {
-    "name": "Fairhaven",
-    "flags": [
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Wollochet",
-    "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Greenfields",
-    "flags": [
-      "flower",
-      "heart",
-      "sun"
-    ]
-  },
-  {
-    "name": "Hackneyville",
-    "flags": [
-      "flower",
-      "heart",
-      "sun"
-    ]
-  },
-  {
-    "name": "Emison",
-    "flags": [
-      "flower"
-    ]
-  },
-  {
-    "name": "Morningside",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Marenisco",
-    "flags": []
-  },
-  {
-    "name": "Clinton",
-    "flags": [
-      "flower",
-      "flash"
-    ]
-  },
-  {
-    "name": "Bendon",
-    "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Mayfair",
-    "flags": [
-      "heart",
-      "sun"
-    ]
-  },
-  {
-    "name": "Kieler",
-    "flags": []
-  },
-  {
-    "name": "Blue",
-    "flags": [
-      "flower",
-      "sun"
-    ]
-  },
-  {
-    "name": "Boling",
-    "flags": [
-      "flower",
-      "heart",
-      "sun"
-    ]
-  },
-  {
-    "name": "Eastmont",
-    "flags": [
-      "flower"
-    ]
-  },
-  {
-    "name": "Dyckesville",
-    "flags": [
-      "flower",
-      "heart"
-    ]
-  },
-  {
-    "name": "Sisquoc",
-    "flags": [
-      "heart",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Brookfield",
-    "flags": [
-      "flash"
-    ]
-  },
-  {
-    "name": "Bartonsville",
     "flags": [
       "heart"
-    ]
+    ],
+    "name": "Boyd"
   },
   {
-    "name": "Gratton",
     "flags": [
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Nescatunga",
-    "flags": [
-      "flower",
-      "flash"
-    ]
-  },
-  {
-    "name": "Helen",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Brambleton",
-    "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Rockingham",
-    "flags": [
-      "flash"
-    ]
-  },
-  {
-    "name": "Bakersville",
-    "flags": []
-  },
-  {
-    "name": "Weeksville",
-    "flags": [
-      "flower",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Lookingglass",
-    "flags": [
-      "flower"
-    ]
-  },
-  {
-    "name": "Collins",
-    "flags": [
-      "flower",
-      "heart",
-      "flash"
-    ]
-  },
-  {
-    "name": "Dunlo",
-    "flags": [
-      "flower",
-      "flash"
-    ]
-  },
-  {
-    "name": "Winfred",
-    "flags": [
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Vale",
-    "flags": [
-      "flower",
-      "heart",
-      "sun",
-      "flash"
-    ]
-  },
-  {
-    "name": "Hoagland",
-    "flags": [
-      "flower"
-    ]
-  },
-  {
-    "name": "Savannah",
-    "flags": []
-  },
-  {
-    "name": "Nord",
-    "flags": [
-      "flower",
       "heart"
-    ]
+    ],
+    "name": "Caroline"
   },
   {
-    "name": "Lynn",
     "flags": [
-      "heart",
-      "flash"
-    ]
+      "rocket",
+      "heart"
+    ],
+    "name": "Kula"
   },
   {
-    "name": "Newcastle",
-    "flags": []
-  },
-  {
-    "name": "Lowgap",
     "flags": [
-      "heart",
-      "flash"
-    ]
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Frystown"
   },
   {
-    "name": "Rew",
     "flags": [
-      "flash"
-    ]
+      "flame",
+      "squirrel"
+    ],
+    "name": "Walker"
+  },
+  {
+    "flags": [
+      "flame",
+      "heart"
+    ],
+    "name": "Jennings"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Yukon"
+  },
+  {
+    "flags": [
+      "rocket"
+    ],
+    "name": "Belgreen"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Veguita"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "heart"
+    ],
+    "name": "Allamuchy"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket",
+      "heart"
+    ],
+    "name": "Orick"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel"
+    ],
+    "name": "Riner"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel"
+    ],
+    "name": "Snelling"
+  },
+  {
+    "flags": [],
+    "name": "Dotsero"
+  },
+  {
+    "flags": [
+      "rocket",
+      "heart"
+    ],
+    "name": "Nile"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket"
+    ],
+    "name": "Englevale"
+  },
+  {
+    "flags": [
+      "flame"
+    ],
+    "name": "Lutsen"
+  },
+  {
+    "flags": [
+      "squirrel"
+    ],
+    "name": "Islandia"
+  },
+  {
+    "flags": [],
+    "name": "Dyckesville"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Hiwasse"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Charco"
+  },
+  {
+    "flags": [
+      "flame"
+    ],
+    "name": "Advance"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket",
+      "heart"
+    ],
+    "name": "Catharine"
+  },
+  {
+    "flags": [
+      "flame",
+      "heart"
+    ],
+    "name": "Datil"
+  },
+  {
+    "flags": [
+      "heart"
+    ],
+    "name": "Cavalero"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "heart"
+    ],
+    "name": "Sharon"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Brogan"
+  },
+  {
+    "flags": [
+      "flame",
+      "heart"
+    ],
+    "name": "Edinburg"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Vincent"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Franklin"
+  },
+  {
+    "flags": [
+      "rocket"
+    ],
+    "name": "Whitehaven"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket",
+      "heart"
+    ],
+    "name": "Dellview"
+  },
+  {
+    "flags": [
+      "squirrel"
+    ],
+    "name": "Tolu"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Cutter"
+  },
+  {
+    "flags": [
+      "squirrel"
+    ],
+    "name": "Lafferty"
+  },
+  {
+    "flags": [
+      "flame",
+      "heart"
+    ],
+    "name": "Vienna"
+  },
+  {
+    "flags": [],
+    "name": "Roulette"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Avoca"
+  },
+  {
+    "flags": [],
+    "name": "Conway"
+  },
+  {
+    "flags": [
+      "rocket"
+    ],
+    "name": "Barclay"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "heart"
+    ],
+    "name": "Spelter"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Waumandee"
+  },
+  {
+    "flags": [
+      "rocket"
+    ],
+    "name": "Roberts"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Loyalhanna"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Carrsville"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket"
+    ],
+    "name": "Woodlands"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Emison"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Smock"
+  },
+  {
+    "flags": [
+      "rocket"
+    ],
+    "name": "Shrewsbury"
+  },
+  {
+    "flags": [],
+    "name": "Cassel"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Websterville"
+  },
+  {
+    "flags": [
+      "flame",
+      "heart"
+    ],
+    "name": "Kipp"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket",
+      "heart"
+    ],
+    "name": "Cawood"
+  },
+  {
+    "flags": [],
+    "name": "Devon"
+  },
+  {
+    "flags": [
+      "heart"
+    ],
+    "name": "Chamberino"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Calpine"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket"
+    ],
+    "name": "Churchill"
+  },
+  {
+    "flags": [
+      "flame",
+      "heart"
+    ],
+    "name": "Bellamy"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket",
+      "heart"
+    ],
+    "name": "Troy"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Vaughn"
+  },
+  {
+    "flags": [
+      "rocket",
+      "heart"
+    ],
+    "name": "Marbury"
+  },
+  {
+    "flags": [
+      "heart"
+    ],
+    "name": "Baden"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel"
+    ],
+    "name": "Shelby"
+  },
+  {
+    "flags": [
+      "squirrel"
+    ],
+    "name": "Newkirk"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Oberlin"
+  },
+  {
+    "flags": [
+      "rocket"
+    ],
+    "name": "Machias"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel"
+    ],
+    "name": "Chelsea"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket",
+      "heart"
+    ],
+    "name": "Hampstead"
+  },
+  {
+    "flags": [
+      "flame"
+    ],
+    "name": "Century"
+  },
+  {
+    "flags": [
+      "flame",
+      "rocket"
+    ],
+    "name": "Loma"
+  },
+  {
+    "flags": [
+      "heart"
+    ],
+    "name": "Succasunna"
+  },
+  {
+    "flags": [
+      "heart"
+    ],
+    "name": "Kohatk"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel"
+    ],
+    "name": "Harviell"
+  },
+  {
+    "flags": [
+      "heart"
+    ],
+    "name": "Malo"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket"
+    ],
+    "name": "Orovada"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "rocket",
+      "heart"
+    ],
+    "name": "Celeryville"
+  },
+  {
+    "flags": [
+      "rocket",
+      "heart"
+    ],
+    "name": "Ironton"
+  },
+  {
+    "flags": [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    "name": "Waverly"
+  },
+  {
+    "flags": [
+      "squirrel",
+      "heart"
+    ],
+    "name": "Coaldale"
+  },
+  {
+    "flags": [],
+    "name": "Foscoe"
   }
 ];

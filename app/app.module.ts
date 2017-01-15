@@ -5,9 +5,20 @@ import { AppComponent }  from './app.component';
 import { ItemComponent } from './item.component';
 import { ItemSelectedComponent } from './item-selected.component';
 
+import { AlphabeticaOrderPipe } from './alphabetical-order.pipe';
+
 @NgModule({
-  imports:      [ BrowserModule ],
-  declarations: [ AppComponent, ItemComponent, ItemSelectedComponent ],
-  bootstrap:    [ AppComponent ]
+  imports: [
+    BrowserModule
+  ],
+  declarations: [
+    AppComponent,
+    ItemComponent,
+    ItemSelectedComponent,
+    AlphabeticaOrderPipe
+  ],
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }

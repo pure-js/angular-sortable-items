@@ -12,7 +12,7 @@
           <input class="form-control" type="text" placeholder="Text filter">
         </div>
       </form>
-      <item *ngFor="let item of cities" [item]="item"></item>
+      <item *ngFor="let item of (cities | alphabeticaOrder)" [item]="item"></item>
     </div>
     <div class="col-xs-12 col-md-4">
       <item-selected></item-selected>

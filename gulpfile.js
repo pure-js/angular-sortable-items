@@ -4,7 +4,7 @@ const plugins = require('gulp-load-plugins')();
 const config = {
   paths: {
     copy: [
-      'index.html',
+      'index-deploy.html',
       'styles.css',
       'systemjs.config.js'
     ],

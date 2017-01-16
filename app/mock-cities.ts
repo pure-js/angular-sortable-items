@@ -1,9 +1,6 @@
-interface item {
-  name: string;
-  flags: string[];
-}
+import { Item } from './item';
 
-export let cities: item[] = [
+export let cities: Item[] = [
   {
     "flags": [
       "flame",

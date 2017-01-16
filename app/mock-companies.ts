@@ -1,7 +1,4 @@
-interface item {
-  name: string;
-  flags: string[];
-}
+import { item } from './item';
 
 export let companies: item[] = [
   {

@@ -2,10 +2,11 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent }  from './app.component';
-import { ItemComponent } from './item.component';
+import { ItemListComponent } from './item-list.component';
 import { ItemSelectedComponent } from './item-selected.component';
 
-import { AlphabeticaOrderPipe } from './alphabetical-order.pipe';
+import { AlphabeticalOrderPipe } from './alphabetical-order.pipe';
+import { FetchJsonPipe } from './fetch-json.pipe';
 
 @NgModule({
   imports: [
@@ -13,9 +14,10 @@ import { AlphabeticaOrderPipe } from './alphabetical-order.pipe';
   ],
   declarations: [
     AppComponent,
-    ItemComponent,
+    ItemListComponent,
     ItemSelectedComponent,
-    AlphabeticaOrderPipe
+    AlphabeticalOrderPipe,
+    FetchJsonPipe
   ],
   bootstrap: [
     AppComponent

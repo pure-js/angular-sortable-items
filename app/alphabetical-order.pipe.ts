@@ -1,27 +1,25 @@
 import { Pipe, PipeTransform } from '@angular/core';
+
+import { item } from './item';
+
 /*
  * Raise the value exponentially
  * Takes an exponent argument that defaults to 1.
  * Usage:
- *   value | alphabeticaOrder:exponent
+ *   {{ [{name: 'a'},{name: 'b'}] | alphabeticalOrder:exponent
  * Example:
- *   {{ 2 |  alphabeticaOrder:10}}
+ *   {{ [{name: 'a'},{name: 'b'}] |  alphabeticalOrder:10}}
  *   formats to: 1024
 */
-class kio {
-  name: string;
-  flags: string[];
-}
 @Pipe({
-  name: 'alphabeticaOrder',
-  pure: false
+  name: 'alphabeticalOrder'
 })
-export class AlphabeticaOrderPipe implements PipeTransform {
-  transform(arr: kio[]) {
+export class AlphabeticalOrderPipe implements PipeTransform {
+  transform(arr: item[]) {
     return arr.sort((a, b) => {
       let nameA = a.name.toUpperCase(); // ignore upper and lowercase
       let nameB = b.name.toUpperCase(); // ignore upper and lowercase
-  
+
       if (nameA < nameB) {
         return -1;
       }

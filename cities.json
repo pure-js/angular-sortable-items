@@ -1,6 +1,4 @@
-import { item } from './item';
-
-export let cities: item[] = [
+[
   {
     "flags": [
       "flame",
@@ -681,4 +679,4 @@ export let cities: item[] = [
     "flags": [],
     "name": "Foscoe"
   }
-];
+]

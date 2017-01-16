@@ -1,6 +1,6 @@
-import { item } from './item';
+import { Item } from './item';
 
-export let companies: item[] = [
+export let companies: Item[] = [
   {
     "flags": [
       "squirrel",

@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-import { item } from './item';
+import { Item } from './item';
 
 /*
  * Raise the value exponentially
@@ -15,7 +15,7 @@ import { item } from './item';
   name: 'alphabeticalOrder'
 })
 export class AlphabeticalOrderPipe implements PipeTransform {
-  transform(arr: item[], reverse: boolean) {
+  transform(arr: Item[], reverse: boolean) {
     return arr.sort((a, b) => {
       let nameA = a.name.toUpperCase(); // ignore upper and lowercase
       let nameB = b.name.toUpperCase(); // ignore upper and lowercase

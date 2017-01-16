@@ -6,7 +6,6 @@ import { ItemListComponent } from './item-list.component';
 import { ItemSelectedComponent } from './item-selected.component';
 
 import { AlphabeticalOrderPipe } from './alphabetical-order.pipe';
-import { FetchJsonPipe } from './fetch-json.pipe';
 
 @NgModule({
   imports: [
@@ -16,8 +15,7 @@ import { FetchJsonPipe } from './fetch-json.pipe';
     AppComponent,
     ItemListComponent,
     ItemSelectedComponent,
-    AlphabeticalOrderPipe,
-    FetchJsonPipe
+    AlphabeticalOrderPipe
   ],
   bootstrap: [
     AppComponent

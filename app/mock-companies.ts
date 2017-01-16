@@ -1,9 +1,6 @@
-interface item {
-  name: string;
-  flags: string[];
-}
+import { Item } from './item';
 
-export let companies: item[] = [
+export let companies: Item[] = [
   {
     "flags": [
       "squirrel",

@@ -4,3 +4,18 @@ h1 {
   font-size: 250%;
 }
 
+.octicon_cardinal {
+  color: #4FAEFF;
+}
+
+.octicon_flamelike {
+  color: #028AFF;
+}
+
+.octicon_wild {
+  color: #27577F;
+}
+
+.octicon_reactive {
+  color: #026ECC;
+}

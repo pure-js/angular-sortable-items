@@ -5,8 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent }  from './app.component';
 import { ItemListComponent } from './item-list.component';
 import { ItemSelectedComponent } from './item-selected.component';
+import { ItemSearchComponent }  from './item-search.component';
 
 import { AlphabeticalOrderPipe } from './alphabetical-order.pipe';
+import { FlagPipe } from './flag-filter.pipe';
 
 @NgModule({
   imports: [
@@ -17,7 +19,9 @@ import { AlphabeticalOrderPipe } from './alphabetical-order.pipe';
     AppComponent,
     ItemListComponent,
     ItemSelectedComponent,
-    AlphabeticalOrderPipe
+    ItemSearchComponent,
+    AlphabeticalOrderPipe,
+    FlagPipe
   ],
   bootstrap: [
     AppComponent

@@ -19,3 +19,12 @@ h1 {
 .octicon_reactive {
   color: #026ECC;
 }
+
+.card_draggable {
+  cursor: pointer;
+}
+
+.card_draggable:hover {
+  cursor: pointer;
+  border-color: rgba(2,117,216, .5);
+}

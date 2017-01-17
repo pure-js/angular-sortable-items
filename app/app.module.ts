@@ -8,7 +8,7 @@ import { ItemSelectedComponent } from './item-selected.component';
 import { ItemSearchComponent }  from './item-search.component';
 
 import { AlphabeticalOrderPipe } from './alphabetical-order.pipe';
-import { FlagPipe } from './flag-filter.pipe';
+import { FlagPipe } from './flags-filter.pipe';
 
 @NgModule({
   imports: [

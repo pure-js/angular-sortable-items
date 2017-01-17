@@ -10,4 +10,5 @@ import { companies } from './mock-companies';
 export class AppComponent {
   cities = cities;
   companies = companies;
+  gears = 23;
 }

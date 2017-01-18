@@ -17,7 +17,7 @@ const config = {
       'node_modules/systemjs/dist/system.src.js'
     ]
   }
-}
+};
 
 function copy() {
   return gulp.src(config.paths.copy)

@@ -3,7 +3,7 @@ import { Item } from '../item';
 
 @Component({
   selector: 'item-list',
-  templateUrl: 'item-list/item-list.component.html'
+  templateUrl: './item-list.component.html'
 })
 
 export class ItemListComponent {

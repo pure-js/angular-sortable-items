@@ -7,7 +7,6 @@ import { ItemSearchService } from './item-search.service';
 import { Item } from './item';
 
 @Component({
-  moduleId: module.id,
   selector: 'item-search',
   templateUrl: 'item-search.component.html',
   providers: [ ItemSearchService ]

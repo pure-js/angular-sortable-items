@@ -5,8 +5,7 @@ const config = {
   paths: {
     copy: [
       'index-deploy.html',
-      'styles.css',
-      'systemjs.config.js'
+      'styles.css'
     ],
     copyAsIs: [
       'app/*.html',

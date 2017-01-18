@@ -4,7 +4,7 @@ import { companies } from './mock-companies';
 
 @Component({
   selector: 'my-app',
-  templateUrl: 'app/app.component.html'
+  templateUrl: './app.component.html'
 })
 
 export class AppComponent {

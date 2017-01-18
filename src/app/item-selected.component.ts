@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'item-selected',
-  templateUrl: 'app/item-selected.component.html'
+  templateUrl: './item-selected.component.html'
 })
 
 export class ItemSelectedComponent {

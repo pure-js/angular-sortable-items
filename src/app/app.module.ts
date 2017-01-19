@@ -6,9 +6,10 @@ import { AppComponent }  from './app.component';
 import { ItemListComponent } from './item-list/item-list.component';
 import { ItemSelectedComponent } from './item-selected.component';
 import { ItemSearchComponent }  from './item-search.component';
+import { FlagFilterComponent }  from './flags-filter/flags-filter.component';
 
 import { AlphabeticalOrderPipe } from './alphabetical-order.pipe';
-import { FlagPipe } from './flags-filter.pipe';
+import { FlagPipe } from './flags-filter/flags-filter.pipe';
 
 @NgModule({
   imports: [
@@ -20,6 +21,7 @@ import { FlagPipe } from './flags-filter.pipe';
     ItemListComponent,
     ItemSelectedComponent,
     ItemSearchComponent,
+    FlagFilterComponent,
     AlphabeticalOrderPipe,
     FlagPipe
   ],

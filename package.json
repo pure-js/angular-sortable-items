@@ -4,7 +4,7 @@
   "description": "angular application wich allow you to sort lists of items",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
-    "build": "rimraf dist $$ webpack --config config/webpack.prod.js --progress --profile --bail",
+    "build": "webpack --config config/webpack.prod.js --progress --profile --bail",
     "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",
     "lint": "tslint ./src/app/**/*.ts -t verbose",
     "lite": "lite-server -c config/bs-config.js",

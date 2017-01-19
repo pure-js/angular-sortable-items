@@ -5,8 +5,7 @@ const config = {
   paths: {
     copy: [
       'index-deploy.html',
-      'styles.css',
-      'systemjs.config.js'
+      'styles.css'
     ],
     copyAsIs: [
       'app/*.html',
@@ -17,7 +16,7 @@ const config = {
       'node_modules/systemjs/dist/system.src.js'
     ]
   }
-}
+};
 
 function copy() {
   return gulp.src(config.paths.copy)

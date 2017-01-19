@@ -13,7 +13,7 @@ var item_list_component_1 = require("./item-list/item-list.component");
 var item_selected_component_1 = require("./item-selected.component");
 var item_search_component_1 = require("./item-search.component");
 var alphabetical_order_pipe_1 = require("./alphabetical-order.pipe");
-var flags_filter_pipe_1 = require("./flags-filter.pipe");
+var flags_filter_pipe_1 = require("./flags-filter/flags-filter.pipe.ts");
 var AppModule = (function () {
     function AppModule() {
     }

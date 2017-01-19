@@ -1,8 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Item } from './item';
+import { Item } from '../item';
 
 @Pipe({
-  name: 'flags'
+  name: 'flags',
+  pure: false
 })
 
 export class FlagPipe implements PipeTransform {

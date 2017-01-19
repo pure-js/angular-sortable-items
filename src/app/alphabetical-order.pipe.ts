@@ -15,24 +15,24 @@ import { Item } from './item';
 })
 
 export class AlphabeticalOrderPipe implements PipeTransform {
-  transform(arr: Item[], reverse: boolean) {
+  transform(arr: Item[], alphabetical: boolean) {
     return arr.sort((a, b) => {
       let nameA = a.name.toUpperCase(); // ignore upper and lowercase
       let nameB = b.name.toUpperCase(); // ignore upper and lowercase
 
-      if (reverse) {
-        if (nameB < nameA) {
-          return -1;
-        }
-        if (nameB > nameA) {
-          return 1;
-        }
-        return 0;
-      } else {
+      if (alphabetical) {
         if (nameA < nameB) {
           return -1;
         }
         if (nameA > nameB) {
+          return 1;
+        }
+        return 0;
+      } else {
+        if (nameB < nameA) {
+          return -1;
+        }
+        if (nameB > nameA) {
           return 1;
         }
         return 0;

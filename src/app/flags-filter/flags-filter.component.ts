@@ -11,16 +11,14 @@ export class FlagFilterComponent {
   constructor() {}
 
   toggleFlag = function (flag: string) {
-    console.log('shin');
     let arr = this.flags;
     let include = arr.includes(flag);
+
     if (include) {
       let index = arr.indexOf(flag);
       this.flags.splice(index, 1);
-      console.log('yes', this.flags);
     } else {
       this.flags.push(flag);
-      console.log('no', this.flags);
     }
   }
 }

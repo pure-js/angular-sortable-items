@@ -1,9 +1,9 @@
 {
   "name": "angular-sortable-items",
   "version": "1.0.0",
-  "description": "angular application wich allow you to sort lists of items",
+  "description": "angular application which allow you to sort lists of items",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 8080",
+    "start": "webpack-dev-server --inline --progress --port 8080 --open",
     "build": "webpack --config config/webpack.prod.js --progress --profile --bail",
     "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",
     "lint": "tslint ./src/app/**/*.ts -t verbose",
@@ -60,7 +60,6 @@
     "phantomjs-prebuilt": "^2.1.7",
     "protractor": "~5.0.0",
     "raw-loader": "^0.5.1",
-    "rimraf": "^2.5.4",
     "style-loader": "^0.13.1",
     "tslint": "^4.3.1",
     "typescript": "~2.1.5",

@@ -8,11 +8,10 @@ import { Component, Input } from '@angular/core';
 
 export class FlagFilterComponent {
   @Input() flags: string[];
+  @Input() selected: string[];
   constructor() {}
 
   toggleFlag = function (flag: string) {
-    this.checked = !this.checked;
-
     let arr = this.flags;
     let include = arr.includes(flag);
 

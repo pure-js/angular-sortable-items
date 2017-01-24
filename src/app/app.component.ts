@@ -18,6 +18,6 @@ export class AppComponent {
   companies = companies;
   sortOrder = true;
   selectedItemG: Item;
-  selectedProps = ['rocket','heart'];
-  text = 'a';
+  selectedProps: any[] = [];
+  text = '';
 }

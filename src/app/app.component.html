@@ -19,9 +19,7 @@
       <!--<item-selected [item]="selectedItemG"></item-selected>-->
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
-      <h3>Filters:</h3>
-      <p>Contains any of them</p>
-
+      <h3 style="float:left">Filters:</h3>
       <flag-filter [flags]="selectedProps" [selected]="selectedProps"></flag-filter>
       <item-list [items]="companies | flags: selectedProps"></item-list>
     </div>

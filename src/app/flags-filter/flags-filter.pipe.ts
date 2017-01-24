@@ -11,7 +11,7 @@ export class FlagPipe implements PipeTransform {
 
     let findOne = function (haystack: any, arr: any) {
       return arr.every(function (element: any) {
-        console.log('el', element);
+        // console.log('el', element);
         return haystack.indexOf(element) >= 0;
       });
     };

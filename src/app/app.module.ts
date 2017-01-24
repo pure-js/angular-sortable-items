@@ -4,12 +4,13 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent }  from './app.component';
 import { ItemListComponent } from './item-list/item-list.component';
-import { ItemSelectedComponent } from './item-selected.component';
-import { ItemSearchComponent }  from './item-search.component';
+import { ItemSelectedComponent } from './item-selected/item-selected.component';
 import { FlagFilterComponent }  from './flags-filter/flags-filter.component';
+import { TextFilterComponent }  from './text-filter/text-filter.component';
 
-import { AlphabeticalOrderPipe } from './alphabetical-order.pipe';
+import { AlphabeticalOrderPipe } from './alphabetical-order/alphabetical-order.pipe';
 import { FlagPipe } from './flags-filter/flags-filter.pipe';
+import { TextFilterPipe } from './text-filter/text-filter.pipe';
 
 @NgModule({
   imports: [
@@ -20,10 +21,11 @@ import { FlagPipe } from './flags-filter/flags-filter.pipe';
     AppComponent,
     ItemListComponent,
     ItemSelectedComponent,
-    ItemSearchComponent,
     FlagFilterComponent,
+    TextFilterComponent,
     AlphabeticalOrderPipe,
-    FlagPipe
+    FlagPipe,
+    TextFilterPipe
   ],
   bootstrap: [
     AppComponent

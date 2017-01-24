@@ -11,6 +11,8 @@ export class FlagFilterComponent {
   constructor() {}
 
   toggleFlag = function (flag: string) {
+    this.checked = !this.checked;
+
     let arr = this.flags;
     let include = arr.includes(flag);
 

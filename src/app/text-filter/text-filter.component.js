@@ -12,7 +12,7 @@ var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
 var Observable_1 = require("rxjs/Observable");
 var Subject_1 = require("rxjs/Subject");
-var item_search_service_1 = require("./item-search.service");
+var item_search_service_1 = require("./item-search.service.js");
 var ItemSearchComponent = (function () {
     function ItemSearchComponent(itemSearchService, router) {
         this.itemSearchService = itemSearchService;

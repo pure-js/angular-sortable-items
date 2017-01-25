@@ -17,7 +17,13 @@ export class AppComponent {
   cities = cities;
   companies = companies;
   sortOrder = true;
-  selectedItemG: Item;
+  selectedItemG: Item = {
+    flags: [
+      "flame",
+      "rocket"
+    ],
+    name: "Harborton"
+  };
   selectedProps: any[] = [];
   text = '';
 }

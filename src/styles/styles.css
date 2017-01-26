@@ -28,3 +28,10 @@ h1 {
   cursor: pointer;
   border-color: rgba(2,117,216, .5);
 }
+
+
+.scrollable-area {
+  display: block;
+  overflow-y: scroll;
+  max-height: calc(100vh - 1rem - 37px - 1rem);
+}

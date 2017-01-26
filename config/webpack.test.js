@@ -19,12 +19,12 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
-        loader: 'null'
+        loader: 'null-loader'
       },
       {
         test: /\.css$/,
         exclude: helpers.root('src', 'app'),
-        loader: 'null'
+        loader: 'null-loader'
       },
       {
         test: /\.css$/,

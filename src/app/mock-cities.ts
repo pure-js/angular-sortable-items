@@ -1,684 +1,684 @@
 import { Item } from './item';
 
-export let cities: Item[] = [
+export const cities: Item[] = [
   {
-    "flags": [
+    flags: [
       "flame",
       "rocket"
     ],
-    "name": "Harborton"
+    name: "Harborton"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel",
       "heart"
     ],
-    "name": "Barronett"
+    name: "Barronett"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "heart"
     ],
-    "name": "Homeland"
+    name: "Homeland"
   },
   {
-    "flags": [
+    flags: [
       "squirrel"
     ],
-    "name": "Urie"
+    name: "Urie"
   },
   {
-    "flags": [
+    flags: [
       "rocket"
     ],
-    "name": "Fairhaven"
+    name: "Fairhaven"
   },
   {
-    "flags": [
+    flags: [
       "squirrel",
       "rocket"
     ],
-    "name": "Adamstown"
+    name: "Adamstown"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "rocket"
     ],
-    "name": "Dunlo"
+    name: "Dunlo"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "heart"
     ],
-    "name": "Brethren"
+    name: "Brethren"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel",
       "rocket"
     ],
-    "name": "Jackpot"
+    name: "Jackpot"
   },
   {
-    "flags": [
+    flags: [
       "squirrel"
     ],
-    "name": "Roland"
+    name: "Roland"
   },
   {
-    "flags": [
+    flags: [
       "squirrel",
       "heart"
     ],
-    "name": "Bodega"
+    name: "Bodega"
   },
   {
-    "flags": [
+    flags: [
       "rocket"
     ],
-    "name": "Onton"
+    name: "Onton"
   },
   {
-    "flags": [
+    flags: [
       "squirrel"
     ],
-    "name": "Dragoon"
+    name: "Dragoon"
   },
   {
-    "flags": [],
-    "name": "Gouglersville"
+    flags: [],
+    name: "Gouglersville"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "rocket"
     ],
-    "name": "Hiko"
+    name: "Hiko"
   },
   {
-    "flags": [
+    flags: [
       "heart"
     ],
-    "name": "Lynn"
+    name: "Lynn"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel"
     ],
-    "name": "Siglerville"
+    name: "Siglerville"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel",
       "rocket"
     ],
-    "name": "Dola"
+    name: "Dola"
   },
   {
-    "flags": [
+    flags: [
       "squirrel",
       "heart"
     ],
-    "name": "Lloyd"
+    name: "Lloyd"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "rocket",
       "heart"
     ],
-    "name": "Callaghan"
+    name: "Callaghan"
   },
   {
-    "flags": [
+    flags: [
       "heart"
     ],
-    "name": "Boyd"
+    name: "Boyd"
   },
   {
-    "flags": [
+    flags: [
       "heart"
     ],
-    "name": "Caroline"
+    name: "Caroline"
   },
   {
-    "flags": [
+    flags: [
       "rocket",
       "heart"
     ],
-    "name": "Kula"
+    name: "Kula"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel",
       "heart"
     ],
-    "name": "Frystown"
+    name: "Frystown"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel"
     ],
-    "name": "Walker"
+    name: "Walker"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "heart"
     ],
-    "name": "Jennings"
+    name: "Jennings"
   },
   {
-    "flags": [
+    flags: [
       "squirrel",
       "rocket"
     ],
-    "name": "Yukon"
+    name: "Yukon"
   },
   {
-    "flags": [
+    flags: [
       "rocket"
     ],
-    "name": "Belgreen"
+    name: "Belgreen"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel",
       "rocket",
       "heart"
     ],
-    "name": "Veguita"
+    name: "Veguita"
   },
   {
-    "flags": [
+    flags: [
       "squirrel",
       "heart"
     ],
-    "name": "Allamuchy"
+    name: "Allamuchy"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "rocket",
       "heart"
     ],
-    "name": "Orick"
+    name: "Orick"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel"
     ],
-    "name": "Riner"
+    name: "Riner"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel"
     ],
-    "name": "Snelling"
+    name: "Snelling"
   },
   {
-    "flags": [],
-    "name": "Dotsero"
+    flags: [],
+    name: "Dotsero"
   },
   {
-    "flags": [
+    flags: [
       "rocket",
       "heart"
     ],
-    "name": "Nile"
+    name: "Nile"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "rocket"
     ],
-    "name": "Englevale"
+    name: "Englevale"
   },
   {
-    "flags": [
+    flags: [
       "flame"
     ],
-    "name": "Lutsen"
+    name: "Lutsen"
   },
   {
-    "flags": [
+    flags: [
       "squirrel"
     ],
-    "name": "Islandia"
+    name: "Islandia"
   },
   {
-    "flags": [],
-    "name": "Dyckesville"
+    flags: [],
+    name: "Dyckesville"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel",
       "heart"
     ],
-    "name": "Hiwasse"
+    name: "Hiwasse"
   },
   {
-    "flags": [
+    flags: [
       "squirrel",
       "rocket"
     ],
-    "name": "Charco"
+    name: "Charco"
   },
   {
-    "flags": [
+    flags: [
       "flame"
     ],
-    "name": "Advance"
+    name: "Advance"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "rocket",
       "heart"
     ],
-    "name": "Catharine"
+    name: "Catharine"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "heart"
     ],
-    "name": "Datil"
+    name: "Datil"
   },
   {
-    "flags": [
+    flags: [
       "heart"
     ],
-    "name": "Cavalero"
+    name: "Cavalero"
   },
   {
-    "flags": [
+    flags: [
       "squirrel",
       "heart"
     ],
-    "name": "Sharon"
+    name: "Sharon"
   },
   {
-    "flags": [
-      "flame",
-      "squirrel",
-      "heart"
-    ],
-    "name": "Brogan"
-  },
-  {
-    "flags": [
-      "flame",
-      "heart"
-    ],
-    "name": "Edinburg"
-  },
-  {
-    "flags": [
+    flags: [
       "flame",
       "squirrel",
       "heart"
     ],
-    "name": "Vincent"
+    name: "Brogan"
   },
   {
-    "flags": [
+    flags: [
+      "flame",
+      "heart"
+    ],
+    name: "Edinburg"
+  },
+  {
+    flags: [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    name: "Vincent"
+  },
+  {
+    flags: [
       "squirrel",
       "rocket",
       "heart"
     ],
-    "name": "Franklin"
+    name: "Franklin"
   },
   {
-    "flags": [
+    flags: [
       "rocket"
     ],
-    "name": "Whitehaven"
+    name: "Whitehaven"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "rocket",
       "heart"
     ],
-    "name": "Dellview"
+    name: "Dellview"
   },
   {
-    "flags": [
+    flags: [
       "squirrel"
     ],
-    "name": "Tolu"
+    name: "Tolu"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel",
       "heart"
     ],
-    "name": "Cutter"
+    name: "Cutter"
   },
   {
-    "flags": [
+    flags: [
       "squirrel"
     ],
-    "name": "Lafferty"
+    name: "Lafferty"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "heart"
     ],
-    "name": "Vienna"
+    name: "Vienna"
   },
   {
-    "flags": [],
-    "name": "Roulette"
+    flags: [],
+    name: "Roulette"
   },
   {
-    "flags": [
+    flags: [
       "squirrel",
       "rocket",
       "heart"
     ],
-    "name": "Avoca"
+    name: "Avoca"
   },
   {
-    "flags": [],
-    "name": "Conway"
+    flags: [],
+    name: "Conway"
   },
   {
-    "flags": [
+    flags: [
       "rocket"
     ],
-    "name": "Barclay"
+    name: "Barclay"
   },
   {
-    "flags": [
+    flags: [
       "squirrel",
       "heart"
     ],
-    "name": "Spelter"
+    name: "Spelter"
   },
   {
-    "flags": [
-      "flame",
-      "squirrel",
-      "heart"
-    ],
-    "name": "Waumandee"
-  },
-  {
-    "flags": [
-      "rocket"
-    ],
-    "name": "Roberts"
-  },
-  {
-    "flags": [
-      "squirrel",
-      "rocket"
-    ],
-    "name": "Loyalhanna"
-  },
-  {
-    "flags": [
-      "flame",
-      "squirrel",
-      "rocket"
-    ],
-    "name": "Carrsville"
-  },
-  {
-    "flags": [
-      "flame",
-      "rocket"
-    ],
-    "name": "Woodlands"
-  },
-  {
-    "flags": [
+    flags: [
       "flame",
       "squirrel",
       "heart"
     ],
-    "name": "Emison"
+    name: "Waumandee"
   },
   {
-    "flags": [
+    flags: [
+      "rocket"
+    ],
+    name: "Roberts"
+  },
+  {
+    flags: [
+      "squirrel",
+      "rocket"
+    ],
+    name: "Loyalhanna"
+  },
+  {
+    flags: [
+      "flame",
+      "squirrel",
+      "rocket"
+    ],
+    name: "Carrsville"
+  },
+  {
+    flags: [
+      "flame",
+      "rocket"
+    ],
+    name: "Woodlands"
+  },
+  {
+    flags: [
+      "flame",
+      "squirrel",
+      "heart"
+    ],
+    name: "Emison"
+  },
+  {
+    flags: [
       "flame",
       "squirrel",
       "rocket",
       "heart"
     ],
-    "name": "Smock"
+    name: "Smock"
   },
   {
-    "flags": [
+    flags: [
       "rocket"
     ],
-    "name": "Shrewsbury"
+    name: "Shrewsbury"
   },
   {
-    "flags": [],
-    "name": "Cassel"
+    flags: [],
+    name: "Cassel"
   },
   {
-    "flags": [
+    flags: [
       "squirrel",
       "rocket",
       "heart"
     ],
-    "name": "Websterville"
+    name: "Websterville"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "heart"
     ],
-    "name": "Kipp"
+    name: "Kipp"
   },
   {
-    "flags": [
-      "flame",
-      "rocket",
-      "heart"
-    ],
-    "name": "Cawood"
-  },
-  {
-    "flags": [],
-    "name": "Devon"
-  },
-  {
-    "flags": [
-      "heart"
-    ],
-    "name": "Chamberino"
-  },
-  {
-    "flags": [
-      "flame",
-      "squirrel",
-      "heart"
-    ],
-    "name": "Calpine"
-  },
-  {
-    "flags": [
-      "flame",
-      "rocket"
-    ],
-    "name": "Churchill"
-  },
-  {
-    "flags": [
-      "flame",
-      "heart"
-    ],
-    "name": "Bellamy"
-  },
-  {
-    "flags": [
+    flags: [
       "flame",
       "rocket",
       "heart"
     ],
-    "name": "Troy"
+    name: "Cawood"
   },
   {
-    "flags": [
+    flags: [],
+    name: "Devon"
+  },
+  {
+    flags: [
+      "heart"
+    ],
+    name: "Chamberino"
+  },
+  {
+    flags: [
       "flame",
       "squirrel",
       "heart"
     ],
-    "name": "Vaughn"
+    name: "Calpine"
   },
   {
-    "flags": [
+    flags: [
+      "flame",
+      "rocket"
+    ],
+    name: "Churchill"
+  },
+  {
+    flags: [
+      "flame",
+      "heart"
+    ],
+    name: "Bellamy"
+  },
+  {
+    flags: [
+      "flame",
       "rocket",
       "heart"
     ],
-    "name": "Marbury"
+    name: "Troy"
   },
   {
-    "flags": [
+    flags: [
+      "flame",
+      "squirrel",
       "heart"
     ],
-    "name": "Baden"
+    name: "Vaughn"
   },
   {
-    "flags": [
-      "flame",
-      "squirrel"
+    flags: [
+      "rocket",
+      "heart"
     ],
-    "name": "Shelby"
+    name: "Marbury"
   },
   {
-    "flags": [
-      "squirrel"
+    flags: [
+      "heart"
     ],
-    "name": "Newkirk"
+    name: "Baden"
   },
   {
-    "flags": [
-      "squirrel",
-      "rocket"
-    ],
-    "name": "Oberlin"
-  },
-  {
-    "flags": [
-      "rocket"
-    ],
-    "name": "Machias"
-  },
-  {
-    "flags": [
+    flags: [
       "flame",
       "squirrel"
     ],
-    "name": "Chelsea"
+    name: "Shelby"
   },
   {
-    "flags": [
+    flags: [
+      "squirrel"
+    ],
+    name: "Newkirk"
+  },
+  {
+    flags: [
+      "squirrel",
+      "rocket"
+    ],
+    name: "Oberlin"
+  },
+  {
+    flags: [
+      "rocket"
+    ],
+    name: "Machias"
+  },
+  {
+    flags: [
+      "flame",
+      "squirrel"
+    ],
+    name: "Chelsea"
+  },
+  {
+    flags: [
       "flame",
       "rocket",
       "heart"
     ],
-    "name": "Hampstead"
+    name: "Hampstead"
   },
   {
-    "flags": [
+    flags: [
       "flame"
     ],
-    "name": "Century"
+    name: "Century"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "rocket"
     ],
-    "name": "Loma"
+    name: "Loma"
   },
   {
-    "flags": [
+    flags: [
       "heart"
     ],
-    "name": "Succasunna"
+    name: "Succasunna"
   },
   {
-    "flags": [
+    flags: [
       "heart"
     ],
-    "name": "Kohatk"
+    name: "Kohatk"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel"
     ],
-    "name": "Harviell"
+    name: "Harviell"
   },
   {
-    "flags": [
+    flags: [
       "heart"
     ],
-    "name": "Malo"
+    name: "Malo"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel",
       "rocket"
     ],
-    "name": "Orovada"
+    name: "Orovada"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel",
       "rocket",
       "heart"
     ],
-    "name": "Celeryville"
+    name: "Celeryville"
   },
   {
-    "flags": [
+    flags: [
       "rocket",
       "heart"
     ],
-    "name": "Ironton"
+    name: "Ironton"
   },
   {
-    "flags": [
+    flags: [
       "flame",
       "squirrel",
       "heart"
     ],
-    "name": "Waverly"
+    name: "Waverly"
   },
   {
-    "flags": [
+    flags: [
       "squirrel",
       "heart"
     ],
-    "name": "Coaldale"
+    name: "Coaldale"
   },
   {
-    "flags": [],
-    "name": "Foscoe"
+    flags: [],
+    name: "Foscoe"
   }
 ];

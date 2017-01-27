@@ -22,7 +22,8 @@
     <div class="col-xs-12 col-sm-6 col-md-4">
       <h3 style="float:left">Filters:</h3>
       <flag-filter [flags]="selectedProps" [selected]="selectedProps"></flag-filter>
-      <item-list class="scrollable-area" [items]="companies | flags: selectedProps"></item-list>
+      <item-list class="scrollable-area" [items]="companies"></item-list>
+      <!--<item-list class="scrollable-area" [items]="companies | flags: selectedProps"></item-list>-->
     </div>
   </div>
 </div>

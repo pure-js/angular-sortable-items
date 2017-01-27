@@ -18,16 +18,9 @@ import '../styles/styles.css';
 
 export class AppComponent implements OnInit{
   cities: Item[];
-  companies = companies;
+  companies: Item[];
   sortOrder = true;
   selectedItemG: Item;
-  // selectedItemG: Item = {
-  //   flags: [
-  //     "flame",
-  //     "rocket"
-  //   ],
-  //   name: "Harborton"
-  // };
   selectedProps: any[] = [];
   text = '';
 
@@ -37,7 +30,12 @@ export class AppComponent implements OnInit{
     this.citiesService.getCities().then(cities => this.cities = cities);
   }
 
+  getCompanies(): void {
+    this.citiesService.getCompanies().then(companies => this.companies = companies);
+  }
+
   ngOnInit(): void{
     this.getCities();
+    this.getCompanies();
   }
 }

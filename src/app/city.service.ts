@@ -41,12 +41,12 @@ export class CitiesService {
 
   private headers = new Headers({'Content-Type': 'application/json'});
 
-  update(hero: Item): Promise<Item> {
-    const url = `${this.citiesUrl}/${city.id}`;
+  update(city: Item): Promise<Item> {
+    const url = `${this.citiesUrl}/${city.name}`;
     return this.http
-      .put(url, JSON.stringify(hero), {headers: this.headers})
+      .put(url, JSON.stringify(city), {headers: this.headers})
       .toPromise()
-      .then(() => hero)
+      .then(() => city)
       .catch(this.handleError);
   }
 

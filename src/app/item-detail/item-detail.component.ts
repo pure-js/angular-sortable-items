@@ -11,8 +11,8 @@ export class ItemSelectedComponent {
   @Input() item: Item;
   constructor() {}
 
-  save(): void {
-    this.cityService.update(this.city)
-      .then(() => this.goBack());
-  }
+  // save(): void {
+  //   this.cityService.update(this.city)
+  //     .then(() => this.goBack());
+  // }
 }

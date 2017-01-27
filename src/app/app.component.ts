@@ -1,10 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-// import { cities } from './mock-cities';
-import { companies } from './mock-companies';
 import { CitiesService } from './city.service';
 
 import { Item } from './item';
-
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../../node_modules/octicons/build/octicons.css';

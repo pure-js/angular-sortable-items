@@ -1,6 +1,5 @@
-import { Component } from '@angular/core';
-import { cities } from './mock-cities';
-import { companies } from './mock-companies';
+import {Component, OnInit} from '@angular/core';
+import { CitiesService } from './city.service';
 
 import { Item } from './item';
 
@@ -10,20 +9,30 @@ import '../styles/styles.css';
 
 @Component({
   selector: 'my-app',
-  templateUrl: './app.component.html'
+  templateUrl: './app.component.html',
+  providers: [CitiesService]
 })
 
-export class AppComponent {
-  cities = cities;
-  companies = companies;
+export class AppComponent implements OnInit{
+  cities: Item[];
+  companies: Item[];
   sortOrder = true;
-  selectedItemG: Item = {
-    flags: [
-      "flame",
-      "rocket"
-    ],
-    name: "Harborton"
-  };
+  selectedItemG: Item;
   selectedProps: any[] = [];
   text = '';
+
+  constructor(private citiesService: CitiesService) { }
+
+  getCities(): void {
+    this.citiesService.getCities().then(cities => this.cities = cities);
+  }
+
+  getCompanies(): void {
+    this.citiesService.getCompanies().then(companies => this.companies = companies);
+  }
+
+  ngOnInit(): void{
+    this.getCities();
+    this.getCompanies();
+  }
 }

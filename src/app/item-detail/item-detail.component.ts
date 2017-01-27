@@ -4,10 +4,15 @@ import { Item } from '../item';
 
 @Component({
   selector: 'item-selected',
-  templateUrl: 'item-selected.component.html'
+  templateUrl: 'item-detail.component.html'
 })
 
 export class ItemSelectedComponent {
   @Input() item: Item;
   constructor() {}
+
+  // save(): void {
+  //   this.cityService.update(this.city)
+  //     .then(() => this.goBack());
+  // }
 }

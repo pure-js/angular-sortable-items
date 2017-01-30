@@ -14,6 +14,14 @@ export class TextFilterPipe implements PipeTransform {
       return name.startsWith(symbols);
     }
 
-    return items.filter(nameContains);
+    function wait() {
+      if(items) {
+        return items.filter(nameContains);
+      } else {
+        setTimeout(wait, 300);
+      }
+    }
+
+    return wait();
   }
 }

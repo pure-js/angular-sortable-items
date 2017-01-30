@@ -16,7 +16,8 @@ import { Item } from '../item';
 
 export class AlphabeticalOrderPipe implements PipeTransform {
   transform(arr: Item[], alphabetical: boolean) {
-    return arr.sort((a, b) => {
+
+    function srt(a: any, b: any) {
       let nameA = a.name.toLowerCase(); // ignore upper and lowercase
       let nameB = b.name.toLowerCase(); // ignore upper and lowercase
 
@@ -37,6 +38,16 @@ export class AlphabeticalOrderPipe implements PipeTransform {
         }
         return 0;
       }
-    });
+    }
+
+    function wait() {
+      if(arr) {
+        return arr.sort(srt);
+      } else {
+        setTimeout(wait, 300);
+      }
+    }
+
+    return wait();
   }
 }

@@ -1,5 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { Item } from '../item';
+import {setTimeout} from "timers";
 
 @Pipe({
   name: 'flags',
@@ -17,6 +18,14 @@ export class FlagPipe implements PipeTransform {
       return flags.every(hasProperty);
     }
 
-    return arr.filter(findEachFlag);
+    function wait() {
+      if(arr) {
+        return arr.filter(findEachFlag);
+      } else {
+        setTimeout(wait, 300);
+      }
+    }
+
+    return wait();
   }
 }

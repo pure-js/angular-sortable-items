@@ -15,9 +15,6 @@ module.exports = {
   },
 
   module: {
-    // Remove in future
-    exprContextCritical: false,
-
     rules: [
       {
         test: /\.ts$/,

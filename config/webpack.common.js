@@ -22,7 +22,7 @@ module.exports = {
       },
       {
         test: /\.html$/,
-        loader: 'html-loader'
+        use: 'html-loader'
       },
       {
         test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
@@ -32,8 +32,8 @@ module.exports = {
         test: /\.css$/,
         exclude: helpers.root('src', 'app'),
         loader: ExtractTextPlugin.extract({
-          fallbackLoader: 'style-loader',
-          loader: 'css-loader?sourceMap'
+          fallback: 'style-loader',
+          use: 'css-loader?sourceMap'
         })
       },
       {

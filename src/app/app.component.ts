@@ -4,7 +4,7 @@ import { CitiesService } from './city.service';
 import { Item } from './item';
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
-import '../../node_modules/octicons/build/octicons.css';
+import '../../node_modules/octicons/build/build.css';
 import '../styles/styles.css';
 
 @Component({

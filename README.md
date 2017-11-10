@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.org/pure-js/angular-sortable-items.svg?branch=master)](https://travis-ci.org/pure-js/angular-sortable-items)
-
 # Angular sortable items
+[![Build Status](https://travis-ci.org/pure-js/angular-sortable-items.svg?branch=master)](https://travis-ci.org/pure-js/angular-sortable-items)
 ## Task
 According to the presented layout, implement the client application using angular js, html5, sass.
 Layout:

@@ -1,37 +1,35 @@
 import { Injectable } from '@angular/core';
-import { Headers, Http } from '@angular/http';
-
-import 'rxjs/add/operator/toPromise';
+import {  HttpClient } from '@angular/common/http';
 
 import { Item } from './item';
 
 @Injectable()
-export class CitiesService {
+export class CityService {
+
+  constructor(private http: HttpClient) { }
+
   private citiesUrl = 'api/cities';  // URL to web api
   private companiesUrl = 'api/companies';  // URL to web api
 
-  constructor(private http: Http) { }
 
   getCities(): Promise<Item[]> {
-    return this.http.get(this.citiesUrl)
+    return this.http.get<Item[]>(this.citiesUrl)
       .toPromise()
-      .then(response => response.json().data as Item[])
-      .catch(this.handleError);
+      .catch(e => this.handleError(e));
   }
 
   getCompanies(): Promise<Item[]> {
-    return this.http.get(this.companiesUrl)
+    return this.http.get<Item[]>(this.companiesUrl)
       .toPromise()
-      .then(response => response.json().data as Item[])
-      .catch(this.handleError);
+      .catch(e => this.handleError(e));
   }
 
   getCity(id: number): Promise<Item> {
     const url = `${this.citiesUrl}/${id}`;
     return this.http.get(url)
       .toPromise()
-      .then(response => response.json().data as Item)
-      .catch(this.handleError);
+      // .then(response => response.json().data as Item)
+      .catch(e => this.handleError(e));
   }
 
   private handleError(error: any): Promise<any> {
@@ -44,17 +42,15 @@ export class CitiesService {
   update(city: Item): Promise<Item> {
     const url = `${this.citiesUrl}/${city.name}`;
     return this.http
-      .put(url, JSON.stringify(city), {headers: this.headers})
+      .put(url, JSON.stringify(city), {})
       .toPromise()
-      .then(() => city)
-      .catch(this.handleError);
+      .catch(e => this.handleError(e));
   }
 
   create(name: string): Promise<Item> {
     return this.http
-      .post(this.citiesUrl, JSON.stringify({name: name}), {headers: this.headers})
+      .post(this.citiesUrl, JSON.stringify({name: name}), {})
       .toPromise()
-      .then(res => res.json().data)
-      .catch(this.handleError);
+      .catch(e => this.handleError(e));
   }
 }

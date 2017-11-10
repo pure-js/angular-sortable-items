@@ -1,11 +1,11 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Item } from '../item';
+
+import { Item } from './item';
 
 @Pipe({
   name: 'textFilter',
   pure: false
 })
-
 export class TextFilterPipe implements PipeTransform {
   transform(items: Item[], word: string) {
     function nameContains(value: Item) {

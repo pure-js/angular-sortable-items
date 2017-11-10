@@ -1,13 +1,14 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Item } from '../item';
-import {setTimeout} from "timers";
+
+import { Item } from './item';
 
 @Pipe({
   name: 'flags',
   pure: false
 })
 
-export class FlagPipe implements PipeTransform {
+export class FlagsFilterPipe implements PipeTransform {
+
   transform(arr: Item[], flags: string[]) {
 
     function findEachFlag(value: any) {

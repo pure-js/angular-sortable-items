@@ -1,20 +1,12 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Item } from '../item';
 
-/*
- * Raise the value exponentially
- * Takes an boolean argument that defaults to false.
- * Usage:
- *   {{ [{name: 'a'},{name: 'b'}] | alphabeticalOrder:false }}
- * Example:
- *   {{ [{name: 'a'},{name: 'b'}] | alphabeticalOrder:true }}
- *   formats to: 1024
-*/
+import { Item } from './item';
+
 @Pipe({
   name: 'alphabeticalOrder'
 })
-
 export class AlphabeticalOrderPipe implements PipeTransform {
+
   transform(arr: Item[], alphabetical: boolean) {
 
     function srt(a: any, b: any) {

@@ -1,15 +1,18 @@
-import { Component, Input } from '@angular/core';
-// import { Item } from '../item';
+import { Component, OnInit, ViewEncapsulation, Input } from '@angular/core';
 
 @Component({
-  selector: 'flag-filter',
-  templateUrl: './flags-filter.component.html'
+  selector: 'app-flags-filter',
+  templateUrl: './flags-filter.component.html',
+  styleUrls: ['./flags-filter.component.sass'],
+  encapsulation: ViewEncapsulation.None
 })
-
-export class FlagFilterComponent {
+export class FlagsFilterComponent implements OnInit {
   @Input() flags: string[];
   @Input() selected: string[];
-  constructor() {}
+  constructor() { }
+
+  ngOnInit() {
+  }
 
   toggleFlag = function (flag: string) {
     let arr = this.flags;

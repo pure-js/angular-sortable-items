@@ -1,14 +1,20 @@
-import { Component, Input } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, Input } from '@angular/core';
+
 import { Item } from '../item';
 
 @Component({
-  selector: 'item-list',
-  templateUrl: './item-list.component.html'
+  selector: 'app-item-list',
+  templateUrl: './item-list.component.html',
+  styleUrls: ['./item-list.component.sass'],
+  encapsulation: ViewEncapsulation.None
 })
-
-export class ItemListComponent {
+export class ItemListComponent implements OnInit {
   @Input() items: string[];
-  constructor() {}
+
+  constructor() { }
+
+  ngOnInit() {
+  }
 
   selectedItem: Item;
 

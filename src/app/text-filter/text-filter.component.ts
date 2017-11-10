@@ -1,13 +1,16 @@
-import { Component, Input } from '@angular/core';
-
-import { Item } from '../item';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'text-filter',
-  templateUrl: 'text-filter.component.html'
+  selector: 'app-text-filter',
+  templateUrl: './text-filter.component.html',
+  styleUrls: ['./text-filter.component.sass'],
+  encapsulation: ViewEncapsulation.None
 })
+export class TextFilterComponent implements OnInit {
 
-export class TextFilterComponent {
-  @Input() item: Item;
-  constructor() {}
+  constructor() { }
+
+  ngOnInit() {
+  }
+
 }

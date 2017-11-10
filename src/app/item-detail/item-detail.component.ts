@@ -1,18 +1,18 @@
-import { Component, Input } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, Input } from '@angular/core';
 
 import { Item } from '../item';
 
 @Component({
-  selector: 'item-selected',
-  templateUrl: 'item-detail.component.html'
+  selector: 'app-item-detail',
+  templateUrl: './item-detail.component.html',
+  styleUrls: ['./item-detail.component.sass'],
+  encapsulation: ViewEncapsulation.None
 })
-
-export class ItemSelectedComponent {
+export class ItemDetailComponent implements OnInit {
   @Input() item: Item;
-  constructor() {}
+  constructor() { }
 
-  // save(): void {
-  //   this.cityService.update(this.city)
-  //     .then(() => this.goBack());
-  // }
+  ngOnInit() {
+  }
+
 }

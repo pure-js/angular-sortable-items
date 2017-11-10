@@ -15,4 +15,4 @@ addons:
   chrome: stable
 
 before_install:
-  google-chrome-stable --headless
+  google-chrome-stable --headless --no-sandbox

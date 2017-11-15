@@ -9,13 +9,13 @@ import { Item } from './item';
 export class TextFilterPipe implements PipeTransform {
   transform(items: Item[], word: string) {
     function nameContains(value: Item) {
-      let name = value.name.toLowerCase();
-      let symbols = word.toLowerCase();
+      const name = value.name.toLowerCase();
+      const symbols = word.toLowerCase();
       return name.startsWith(symbols);
     }
 
     function wait() {
-      if(items) {
+      if (items) {
         return items.filter(nameContains);
       } else {
         setTimeout(wait, 300);

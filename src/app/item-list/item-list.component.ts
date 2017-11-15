@@ -11,12 +11,12 @@ import { Item } from '../item';
 export class ItemListComponent implements OnInit {
   @Input() items: string[];
 
+  selectedItem: Item;
+
   constructor() { }
 
   ngOnInit() {
   }
-
-  selectedItem: Item;
 
   onSelect(city: Item): void {
     this.selectedItem = city;

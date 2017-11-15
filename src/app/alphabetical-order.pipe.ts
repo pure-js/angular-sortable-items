@@ -10,8 +10,8 @@ export class AlphabeticalOrderPipe implements PipeTransform {
   transform(arr: Item[], alphabetical: boolean) {
 
     function srt(a: any, b: any) {
-      let nameA = a.name.toLowerCase(); // ignore upper and lowercase
-      let nameB = b.name.toLowerCase(); // ignore upper and lowercase
+      const nameA = a.name.toLowerCase(); // ignore upper and lowercase
+      const nameB = b.name.toLowerCase(); // ignore upper and lowercase
 
       if (alphabetical) {
         if (nameA < nameB) {
@@ -33,7 +33,7 @@ export class AlphabeticalOrderPipe implements PipeTransform {
     }
 
     function wait() {
-      if(arr) {
+      if (arr) {
         return arr.sort(srt);
       } else {
         setTimeout(wait, 300);

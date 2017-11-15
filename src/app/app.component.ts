@@ -27,7 +27,7 @@ export class AppComponent {
     this.cityService.getCompanies().then(companies => this.companies = companies);
   }
 
-  ngOnInit(): void{
+  ngOnInit(): void {
     this.getCities();
     this.getCompanies();
   }

@@ -1,7 +1,7 @@
 import { InMemoryDbService } from 'angular-in-memory-web-api';
 export class InMemoryDataService implements InMemoryDbService {
   createDb() {
-    let cities = [
+    const cities = [
       {
         flags: [
           'flame',
@@ -684,7 +684,7 @@ export class InMemoryDataService implements InMemoryDbService {
       }
     ];
 
-    let companies = [
+    const companies = [
       {
         flags: [
           'squirrel',

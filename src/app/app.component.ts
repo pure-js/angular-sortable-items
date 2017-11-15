@@ -10,6 +10,7 @@ import { Item } from './item';
   providers: [ CityService ]
 })
 export class AppComponent implements OnInit {
+  title = 'Angular sortable items';
   cities: Item[];
   companies: Item[];
   sortOrder = true;

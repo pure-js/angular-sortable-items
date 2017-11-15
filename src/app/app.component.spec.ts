@@ -2,14 +2,23 @@ import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 
+import { TextFilterPipe } from './text-filter.pipe';
+import { AlphabeticalOrderPipe } from './alphabetical-order.pipe';
+
+import { ItemListComponent } from './item-list/item-list.component';
+
+
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
-        FormsModule
+        FormsModule,
       ],
       declarations: [
-        AppComponent
+        AppComponent,
+        TextFilterPipe,
+        AlphabeticalOrderPipe,
+        ItemListComponent
       ],
     }).compileComponents();
   }));

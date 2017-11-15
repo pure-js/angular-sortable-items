@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { CityService } from './city.service';
 
 import { Item } from './item';
@@ -9,7 +9,7 @@ import { Item } from './item';
   styleUrls: ['./app.component.sass'],
   providers: [ CityService ]
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   cities: Item[];
   companies: Item[];
   sortOrder = true;

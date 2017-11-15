@@ -69,5 +69,18 @@
     "webpack-concat-plugin": "1.4.0",
     "copy-webpack-plugin": "^4.1.1",
     "uglifyjs-webpack-plugin": "1.0.0"
-  }
+  },
+  "description": "Client application using angular js, html5, sass",
+  "main": "src/main.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pure-js/angular-sortable-items.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "bugs": {
+    "url": "https://github.com/pure-js/angular-sortable-items/issues"
+  },
+  "homepage": "https://github.com/pure-js/angular-sortable-items#readme"
 }

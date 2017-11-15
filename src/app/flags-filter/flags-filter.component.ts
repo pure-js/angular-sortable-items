@@ -15,11 +15,11 @@ export class FlagsFilterComponent implements OnInit {
   }
 
   toggleFlag = function (flag: string) {
-    let arr = this.flags;
-    let include = arr.includes(flag);
+    const arr = this.flags;
+    const include = arr.includes(flag);
 
     if (include) {
-      let index = arr.indexOf(flag);
+      const index = arr.indexOf(flag);
       this.flags.splice(index, 1);
     } else {
       this.flags.push(flag);

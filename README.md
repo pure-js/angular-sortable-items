@@ -6,10 +6,10 @@ Layout:
 
 The item has the following structure:
 
-{
-name: "item_name",
-flags: ["flower", "heart", "sun", "flash"]
-}
+    {
+      name: "item_name",
+      flags: ["flower", "heart", "sun", "flash"]
+    }
 
 that is, it has a name, and a certain set of properties. Properties display with icons.
 

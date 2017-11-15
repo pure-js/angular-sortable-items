@@ -24,5 +24,5 @@ export class FlagsFilterComponent implements OnInit {
     } else {
       this.flags.push(flag);
     }
-  }
+  };
 }

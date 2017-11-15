@@ -20,7 +20,7 @@ export class FlagsFilterPipe implements PipeTransform {
     }
 
     function wait() {
-      if(arr) {
+      if (arr) {
         return arr.filter(findEachFlag);
       } else {
         setTimeout(wait, 300);

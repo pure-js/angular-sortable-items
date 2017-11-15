@@ -5,8 +5,9 @@ bower_components/
 build/
 dist/
 
-# WebStorm
-.idea/
+# WebStorm IDE user-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
 
 # Compiled files
 app/**/*.js

@@ -6,15 +6,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 
 import { AppComponent } from './app.component';
+
 import { AlphabeticalOrderPipe } from './alphabetical-order.pipe';
 import { FlagsFilterComponent } from './flags-filter/flags-filter.component';
 import { ItemDetailComponent } from './item-detail/item-detail.component';
 import { ItemListComponent } from './item-list/item-list.component';
 import { TextFilterComponent } from './text-filter/text-filter.component';
 import { TextFilterPipe } from './text-filter.pipe';
+import { FlagsFilterPipe } from './flags-filter.pipe';
 
 import { InMemoryDataService } from './in-memory-data.service';
-import { FlagsFilterPipe } from './flags-filter.pipe';
 
 @NgModule({
   declarations: [

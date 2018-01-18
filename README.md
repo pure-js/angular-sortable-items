@@ -1,4 +1,6 @@
 # Angular sortable items
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/pure-js/angular-sortable-items.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/pure-js/angular-sortable-items.svg?branch=master)](https://travis-ci.org/pure-js/angular-sortable-items)
 ## Task
 According to the presented layout, implement the client application using angular js, html5, sass.

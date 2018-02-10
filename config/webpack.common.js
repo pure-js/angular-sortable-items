@@ -37,12 +37,19 @@ module.exports = {
         use: 'file-loader?name=assets/[name].[hash].[ext]'
       },
       {
-        test: /\.css$/,
-        exclude: helpers.root('src', 'app'),
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: 'css-loader?sourceMap'
-        })
+        test: /\.sass$/,
+        // exclude: helpers.root('src', 'app'),
+        use: [{
+          loader: "style-loader" // creates style nodes from JS strings
+        }, {
+          loader: "css-loader" // translates CSS into CommonJS
+        }, {
+          loader: "sass-loader" // compiles Sass to CSS
+        }],
+        // use: ExtractTextPlugin.extract({
+        //   fallback: 'style-loader',
+        //   use: 'css-loader?sourceMap'
+        // })
       },
       {
         test: /\.css$/,

@@ -34,7 +34,7 @@
     "@types/node": "^9.4.4",
     "angular2-template-loader": "^0.6.2",
     "autoprefixer": "^8.0.0",
-    "awesome-typescript-loader": "~3.5.0",
+    "awesome-typescript-loader": "~5.0.0",
     "circular-dependency-plugin": "^4.4.0",
     "codelyzer": "~4.1.0",
     "copy-webpack-plugin": "^4.4.1",

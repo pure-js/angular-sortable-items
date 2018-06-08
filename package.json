@@ -70,7 +70,7 @@
     "uglifyjs-webpack-plugin": "~1.2.0",
     "url-loader": "^0.6.2",
     "webpack": "^4.0.0",
-    "webpack-concat-plugin": "2.4.2",
+    "webpack-concat-plugin": "3.0.0",
     "webpack-dev-server": "~3.0.0"
   },
   "description": "Client application using angular js, html5, sass",

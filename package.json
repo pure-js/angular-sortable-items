@@ -31,7 +31,7 @@
     "@angular/language-service": "^5.2.4",
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.2",
-    "@types/node": "^9.4.4",
+    "@types/node": "^12.12.12",
     "angular2-template-loader": "^0.6.2",
     "autoprefixer": "^8.0.0",
     "awesome-typescript-loader": "~3.5.0",
